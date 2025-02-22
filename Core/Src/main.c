@@ -96,6 +96,7 @@ int main(void) {
   while (1) {
     HAL_GPIO_TogglePin(DEBUG_1_GPIO_Port, DEBUG_1_Pin);
     HAL_GPIO_TogglePin(DEBUG_2_GPIO_Port, DEBUG_2_Pin);
+    HAL_Delay(500);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
